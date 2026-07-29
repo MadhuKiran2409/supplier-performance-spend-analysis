@@ -1,76 +1,38 @@
 # Supplier Performance & Spend Analysis
 
-A procurement analytics project designed to evaluate supplier cost, delivery, quality, lead-time, and spend performance through one structured decision model.
+Procurement analytics case study evaluating 15 suppliers across cost, delivery, quality, and spend concentration using 600 synthetic purchase orders.
 
-> **Project status:** In development. The business scope and implementation plan are complete. Data, analysis, findings, and dashboard files will be added as each milestone is completed.
+> Data note: all records are synthetic and generated for portfolio demonstration.
 
-## Business Question
+## Decisions supported
 
-Which suppliers create the most value, which suppliers introduce the most risk, and where should procurement focus its improvement or sourcing efforts?
+- Identify preferred, watch-list, and high-risk suppliers.
+- Compare on-time delivery and defect performance.
+- Understand supplier-level spend exposure.
+- Create a transparent weighted score: cost 35%, delivery 40%, quality 25%.
 
-## Project Objectives
+## Verified outputs
 
-* Analyze supplier and category-level spending
-* Measure purchase price variance
-* Compare delivery and lead-time performance
-* Evaluate supplier defect and rejection rates
-* Create a weighted supplier scorecard
-* Recommend suppliers for development, negotiation, or review
+The full ranking is in [`output/supplier_scorecard.csv`](output/supplier_scorecard.csv), with headline metrics in [`output/executive_summary.csv`](output/executive_summary.csv).
 
-## Planned KPIs
+![Supplier scorecard](output/supplier_scorecard.png)
 
-| KPI                     | Business Purpose                                          |
-| ----------------------- | --------------------------------------------------------- |
-| Total Spend             | Shows supplier and category-level spending                |
-| Spend Concentration     | Identifies dependency on individual suppliers             |
-| Purchase Price Variance | Compares actual prices with an established baseline       |
-| On-Time Delivery        | Measures supplier delivery reliability                    |
-| Average Lead Time       | Measures supplier responsiveness                          |
-| Defect Rate             | Measures incoming material quality                        |
-| Supplier Score          | Combines cost, delivery, quality, and service performance |
-
-## Technology
-
-* **SQL:** Supplier spend, pricing, delivery, quality, and variance analysis
-* **Excel and Power Query:** Data preparation, validation, and supplier scorecard testing
-* **Power BI:** Supplier comparison and procurement dashboard
-* **SAP MM concepts:** Purchase orders, goods receipts, invoices, and supplier data
-
-## Planned Workflow
-
-1. Inspect supplier, purchase order, receipt, invoice, and quality data.
-2. Clean and standardize the source tables.
-3. Build a supplier-level analytical dataset.
-4. Calculate procurement KPIs and purchase price variance using SQL.
-5. Create weighted supplier scorecard logic.
-6. Validate the calculations in Excel.
-7. Build a Power BI procurement dashboard.
-8. Produce sourcing and supplier-management recommendations.
-
-## Repository Structure
+## Repository
 
 ```text
-data/          Sample data or source instructions
-sql/           Procurement and supplier queries
-analysis/      Excel scorecard and validation
-dashboard/     Power BI file and exported visuals
-docs/          Assumptions and KPI dictionary
-README.md      Project story and final recommendations
+data/       Supplier master and purchase-order transactions
+sql/        PostgreSQL weighted-score query
+src/        Python data generation and analysis
+output/     Scorecard, summary, and visualization
 ```
 
-## Expected Deliverables
+## Reproduce
 
-* Cleaned procurement dataset
-* Supplier and spend SQL scripts
-* Weighted supplier scorecard
-* Power BI procurement dashboard
-* KPI definitions and data dictionary
-* Executive recommendation summary
+```bash
+python -m pip install -r requirements.txt
+python src/analyze_suppliers.py
+```
 
-## Skills Demonstrated
+## Skills demonstrated
 
-Procure-to-Pay · Supplier Management · Spend Analytics · SQL · Excel · Power Query · Power BI · SAP MM Concepts
-
-## Next Milestone
-
-Add a realistic purchase-order dataset and complete the initial spend-concentration analysis.
+Procurement analytics · Supplier management · Spend analysis · OTD · Quality · SQL · Python · KPI design · Data visualization
