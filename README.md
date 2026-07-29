@@ -1,6 +1,6 @@
 # Supplier Performance & Spend Analysis
 
-Procurement analytics case study evaluating 15 suppliers across cost, delivery, quality, and spend concentration using 600 synthetic purchase orders.
+Advanced procurement analytics case study evaluating 75 suppliers across cost, delivery, quality, risk, and spend concentration using 50,000 synthetic purchase orders.
 
 > Data note: all records are synthetic and generated for portfolio demonstration.
 
@@ -15,12 +15,19 @@ Procurement analytics case study evaluating 15 suppliers across cost, delivery, 
 
 The full ranking is in [`output/supplier_scorecard.csv`](output/supplier_scorecard.csv), with headline metrics in [`output/executive_summary.csv`](output/executive_summary.csv).
 
-![Supplier scorecard](output/supplier_scorecard.png)
+![Supplier executive dashboard](output/executive_dashboard.png)
+
+### Portfolio findings
+
+- The analysis evaluates $834.7M in modeled spend across 75 suppliers.
+- Network on-time delivery is 74.0%, creating a clear supplier-development opportunity.
+- The portfolio contains 33 high-risk suppliers under the transparent weighted methodology.
+- Spend Pareto output identifies concentration and negotiation priorities.
 
 ## Repository
 
 ```text
-data/       Supplier master and purchase-order transactions
+data/       50K purchase orders and 75-supplier master
 sql/        PostgreSQL weighted-score query
 src/        Python data generation and analysis
 output/     Scorecard, summary, and visualization
@@ -35,4 +42,4 @@ python src/analyze_suppliers.py
 
 ## Skills demonstrated
 
-Procurement analytics · Supplier management · Spend analysis · OTD · Quality · SQL · Python · KPI design · Data visualization
+Procurement analytics · Supplier segmentation · Spend Pareto · OTD · Defect rate · Risk scoring · SQL · Python · KPI design · Data visualization

@@ -1,16 +1,76 @@
-supplier_id,supplier_name,region,contract_lead_days
-SUP-01,Supplier A,South,10
-SUP-02,Supplier B,East,7
-SUP-03,Supplier C,West,11
-SUP-04,Supplier D,South,8
-SUP-05,Supplier E,South,14
-SUP-06,Supplier F,South,22
-SUP-07,Supplier G,South,15
-SUP-08,Supplier H,West,5
-SUP-09,Supplier I,East,24
-SUP-10,Supplier J,South,10
-SUP-11,Supplier K,South,6
-SUP-12,Supplier L,South,13
-SUP-13,Supplier M,South,21
-SUP-14,Supplier N,Central,7
-SUP-15,Supplier O,South,18
+supplier_id,supplier_name,category,region,contract_lead_days
+SUP-001,Industrial Partner 001,HVAC,East,5
+SUP-002,Industrial Partner 002,Safety,East,30
+SUP-003,Industrial Partner 003,Plumbing,Central,14
+SUP-004,Industrial Partner 004,Packaging,Central,20
+SUP-005,Industrial Partner 005,Packaging,West,24
+SUP-006,Industrial Partner 006,HVAC,East,15
+SUP-007,Industrial Partner 007,Packaging,West,7
+SUP-008,Industrial Partner 008,Plumbing,Central,26
+SUP-009,Industrial Partner 009,Electrical,South,18
+SUP-010,Industrial Partner 010,HVAC,Central,19
+SUP-011,Industrial Partner 011,Packaging,South,22
+SUP-012,Industrial Partner 012,Packaging,West,15
+SUP-013,Industrial Partner 013,HVAC,South,10
+SUP-014,Industrial Partner 014,MRO,West,6
+SUP-015,Industrial Partner 015,Packaging,Central,6
+SUP-016,Industrial Partner 016,Safety,South,18
+SUP-017,Industrial Partner 017,Electrical,West,29
+SUP-018,Industrial Partner 018,Safety,West,5
+SUP-019,Industrial Partner 019,Electrical,Central,16
+SUP-020,Industrial Partner 020,MRO,Central,29
+SUP-021,Industrial Partner 021,Plumbing,South,30
+SUP-022,Industrial Partner 022,Packaging,Central,9
+SUP-023,Industrial Partner 023,Electrical,West,10
+SUP-024,Industrial Partner 024,Plumbing,South,25
+SUP-025,Industrial Partner 025,Safety,East,22
+SUP-026,Industrial Partner 026,Electrical,Central,19
+SUP-027,Industrial Partner 027,MRO,Central,26
+SUP-028,Industrial Partner 028,HVAC,East,29
+SUP-029,Industrial Partner 029,Electrical,East,30
+SUP-030,Industrial Partner 030,HVAC,West,19
+SUP-031,Industrial Partner 031,Plumbing,Central,19
+SUP-032,Industrial Partner 032,HVAC,Central,23
+SUP-033,Industrial Partner 033,HVAC,West,14
+SUP-034,Industrial Partner 034,Safety,East,19
+SUP-035,Industrial Partner 035,MRO,West,13
+SUP-036,Industrial Partner 036,MRO,South,25
+SUP-037,Industrial Partner 037,Safety,South,29
+SUP-038,Industrial Partner 038,Safety,West,20
+SUP-039,Industrial Partner 039,Packaging,West,9
+SUP-040,Industrial Partner 040,HVAC,Central,9
+SUP-041,Industrial Partner 041,Safety,East,13
+SUP-042,Industrial Partner 042,HVAC,East,23
+SUP-043,Industrial Partner 043,Plumbing,East,28
+SUP-044,Industrial Partner 044,Safety,West,26
+SUP-045,Industrial Partner 045,Safety,Central,16
+SUP-046,Industrial Partner 046,Electrical,West,30
+SUP-047,Industrial Partner 047,Plumbing,Central,7
+SUP-048,Industrial Partner 048,MRO,West,18
+SUP-049,Industrial Partner 049,MRO,South,17
+SUP-050,Industrial Partner 050,Safety,Central,16
+SUP-051,Industrial Partner 051,HVAC,Central,30
+SUP-052,Industrial Partner 052,Packaging,Central,8
+SUP-053,Industrial Partner 053,Packaging,Central,7
+SUP-054,Industrial Partner 054,MRO,West,5
+SUP-055,Industrial Partner 055,HVAC,South,19
+SUP-056,Industrial Partner 056,Safety,East,26
+SUP-057,Industrial Partner 057,HVAC,South,8
+SUP-058,Industrial Partner 058,MRO,East,20
+SUP-059,Industrial Partner 059,Packaging,South,15
+SUP-060,Industrial Partner 060,Electrical,South,13
+SUP-061,Industrial Partner 061,Plumbing,Central,24
+SUP-062,Industrial Partner 062,HVAC,West,14
+SUP-063,Industrial Partner 063,Electrical,East,9
+SUP-064,Industrial Partner 064,Plumbing,South,29
+SUP-065,Industrial Partner 065,Electrical,South,21
+SUP-066,Industrial Partner 066,Packaging,West,16
+SUP-067,Industrial Partner 067,Safety,West,24
+SUP-068,Industrial Partner 068,Packaging,East,25
+SUP-069,Industrial Partner 069,Packaging,South,22
+SUP-070,Industrial Partner 070,Plumbing,Central,25
+SUP-071,Industrial Partner 071,MRO,West,28
+SUP-072,Industrial Partner 072,Electrical,East,20
+SUP-073,Industrial Partner 073,Electrical,West,16
+SUP-074,Industrial Partner 074,Packaging,South,16
+SUP-075,Industrial Partner 075,MRO,East,11
